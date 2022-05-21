@@ -844,7 +844,3 @@ ul.location_icon li a:hover {
 .inner_page .footer::after {
      position: inherit;
 }
-.colorTest {
-     color: red !important;
-     //test
-}
