@@ -833,8 +833,14 @@ ul.location_icon li a:hover {
 .inner_page .footer::before {
      position: inherit;
 }
+@media (max-width: 575px){
+     .linkedinIcon{
+          display: flex !important;
+          /* align-content: space-around; */
+          justify-content: space-around !important;
+     }
+}
 
 .inner_page .footer::after {
      position: inherit;
 }
-
